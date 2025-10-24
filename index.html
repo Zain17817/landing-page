@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dapoer Kalongan</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <div class="container">
+        <nav class="navbar">
+            <a href="#" class="logo">Dapoer<span>Kalongan</span></a>
+            <ul class="nav-links">
+                <li><a href="#home">Beranda</a></li>
+                <li><a href="#about">Tentang</a></li>
+                <li><a href="#dishes">Kuliner</a></li>
+            </ul>
+            <div class="hamburger"><i class="fas fa-bars"></i></div>
+        </nav>
+    </div>
+</header>
+
+<section class="hero" id="home">
+    <div class="container">
+        <div class="hero-content">
+            <h1>Rasakan Cita Rasa Asli Pekalongan</h1>
+            <p>Nikmati kekayaan rasa dari kota batik Pekalongan. Setiap masakan membawa kisah, aroma, dan kehangatan khas pesisir utara Jawa Tengah.</p>
+            <a href="#dishes" class="btn">Jelajahi Kuliner</a>
+        </div>
+    </div>
+</section>
+
+<section class="about" id="about">
+    <div class="container">
+        <h2 class="section-title">Tentang Kuliner Pekalongan</h2>
+        <div class="about-content">
+            <div class="about-text">
+                <p>Kuliner Pekalongan terkenal dengan cita rasanya yang kuat, kaya bumbu, dan menggugah selera. Sebagai kota pesisir dengan sejarah perdagangan panjang, Pekalongan memadukan rempah Nusantara dan pengaruh Tionghoa serta Arab dalam setiap hidangannya.</p>
+                <p>Dari hidangan khas seperti *Megono*, *Nasi Kebuli*, hingga *Pindang Tetel*, setiap sajian memiliki aroma dan rasa yang mencerminkan keberagaman budaya masyarakatnya.</p>
+                <p>Bukan hanya makanan berat, jajanan tradisional seperti *Kue Lumpang*, *Apem Kesesi*, dan *Kopi Tahlil* juga menjadi bukti kekayaan cita rasa yang diwariskan turun-temurun.</p>
+                <a href="#dishes" class="btn">Lihat Menu Khas</a>
+            </div>
+            <div class="about-image">
+                <img src="megono.jpg" alt="Kuliner Pekalongan">
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="dishes" id="dishes">
+    <div class="container">
+        <h2 class="section-title">Kuliner Khas Pekalongan</h2>
+        <div class="dishes-grid">
+            <div class="dish-card">
+                <div class="dish-image">
+                    <img src="khas megono.jpg" alt="Megono">
+                </div>
+                <div class="dish-info">
+                    <h3>Nasi Megono</h3>
+                    <p>Ikon kuliner Pekalongan yang terbuat dari cacahan nangka muda dicampur parutan kelapa dan bumbu rempah. Biasanya disajikan dengan ikan asin dan sambal pedas.</p>
+                </div>
+            </div>
+            <div class="dish-card">
+                <div class="dish-image">
+                    <img src="pindang tetel.jpg" alt="Pindang Tetel">
+                </div>
+                <div class="dish-info">
+                    <h3>Pindang Tetel</h3>
+                    <p>Sup daging sapi dengan kuah berwarna gelap hasil rebusan kluwak, dipadu rasa gurih dan pedas yang khas — hangat dan lezat untuk santapan siang.</p>
+                </div>
+            </div>
+            <div class="dish-card">
+                <div class="dish-image">
+                    <img src="kopi tahlil.jpg" alt="Kopi Tahlil">
+                </div>
+                <div class="dish-info">
+                    <h3>Kopi Tahlil</h3>
+                    <p>Minuman khas Pekalongan berbasis kopi hitam dengan campuran rempah seperti jahe, kapulaga, dan cengkeh — menghangatkan tubuh dan menenangkan pikiran.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<footer>
+    <div class="container">
+        <div class="footer-content">
+            <div class="footer-column">
+                <h3>Dapoer Kalongan</h3>
+                <p>Menjelajahi cita rasa khas Pekalongan yang kaya rempah dan tradisi, dari sajian rakyat hingga kuliner warisan budaya.</p>
+                <div class="social-links">
+                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-youtube"></i></a>
+                </div>
+            </div>
+            <div class="footer-column">
+                <h3>Tautan Cepat</h3>
+                <ul class="footer-links">
+                    <li><a href="#home">Beranda</a></li>
+                    <li><a href="#about">Tentang</a></li>
+                    <li><a href="#dishes">Kuliner</a></li>
+                </ul>
+            </div>
+            <div class="footer-column">
+                <h3>Menu Populer</h3>
+                <ul class="footer-links">
+                    <li><a href="#">Nasi Megono</a></li>
+                    <li><a href="#">Pindang Tetel</a></li>
+                    <li><a href="#">Kopi Tahlil</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>&copy; 2025 Dapoer Kalongan.</p>
+        </div>
+    </div>
+</footer>
+
+<script>
+    document.querySelector('.hamburger').addEventListener('click', function() {
+        document.querySelector('.nav-links').classList.toggle('active');
+    });
+</script>
+</body>
+</html>
